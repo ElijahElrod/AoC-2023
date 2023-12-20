@@ -1,7 +1,10 @@
 mod day1;
-use crate::day1::trebuchet;
+mod day2;
+
+use crate::day2::cube_conundrum;
 
 fn main() {
-  let ans = trebuchet::solve();
-  println!("Answer: {ans}")
+
+  let ans = cube_conundrum::solve();
+  println!("Answer Part 2: {ans}")
 }
